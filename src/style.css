@@ -1,16 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Trirong);
 @font-face {
     font-family: "coolvetica_reg";
-    src: url(/panache/src/assets/font_coolvetica/coolvetica\ rg.otf);
+    src: url(./assets/font_coolvetica/coolvetica\ rg.otf);
 }
 @font-face {
     font-family: "coolvetica_small";
-    src: url(/panache/src/assets/font_coolvetica/coolvetica\ condensed\ rg.otf);
+    src: url(./assets/font_coolvetica/coolvetica\ condensed\ rg.otf);
 }
 
 @font-face {
     font-family: "coolvetica_condensed";
-    src: url(/panache/src/assets/font_coolvetica/coolvetica\ compressed\ hv.otf);
+    src: url(./assets/font_coolvetica/coolvetica\ compressed\ hv.otf);
 }
 
 /* for web vr */
