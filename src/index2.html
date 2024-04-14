@@ -1,0 +1,64 @@
+<!-- /Users/lucyaronoff/Desktop/code/test_website/src/index.html -->
+<!-- READ ME: there are 4 different options below with embedding a 3D model. 
+    All of them work with online assets, none have worked so far with local assets. 
+    Uncomment one at a time to see them work. 
+    Replace source with files in assets folder with your local path  -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+
+<!-- This is just some sample starter web UI -->
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+<!--  This is basic Aframe scene, uncomment it and it will display a sphere, cylinder and plane over page  -->
+       <!--  <div>
+            <a-scene>
+                <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+                <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+                <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+                <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+              </a-scene>
+        </div> -->   
+        
+<!-- This is Aframe with a random gltf link. If src is replaced with a local file, it has not worked -->
+      <!--   <a-scene background="color: #ECECEC">
+            <a-assets>
+              <a-asset-item id="cityModel" src="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf"></a-asset-item>
+            </a-assets>
+            <a-entity gltf-model="#cityModel" modify-materials></a-entity>
+          </a-scene> -->
+
+<!-- This is model-viewer. It currently works with this random gltf link. 
+Putting in a file path from my computer has not worked --> 
+       <!--  <div>
+            <model-viewer alt="ex" 
+            src="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf" 
+           camera-controls touch-action="pan-y"></model-viewer>
+        </div> -->
+
+<!-- This works. It is using https://www.creators3d.com/online-viewer 
+I uploaded a glb on that site and embedded it here. 
+This is probably like vectary which would also be free for non moving objects -->
+       <!-- <div class="creators-embed-wrapper"><iframe allow="camera" width="640" height="480" src="https://v.creators3d.com/index.html?load=%2Fviews%2Fproduction%2Fitem%2F20240206%2F894429901006657%2F894429901006657.glb&autorotate=true&json-data=1707249132916&decrypt=1&tv=155" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: none"></iframe>
+       </div> -->
+
+    </body>
+</html>
