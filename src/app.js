@@ -5,21 +5,21 @@ let productItem = [{
     size: "8",
     color1: {
         color: "biscuit",
-        image: "/src/assets/products/8inch_fry_biscuit.png",
-        glb: "/src/assets/3d/8inch_fry_biscuit.glb"
+        image: "./assets/products/8inch_fry_biscuit.png",
+        glb: "./assets/3d/8inch_fry_biscuit.glb"
     },
     color2: {
         color: "periwinkle",
-        image: "/src/assets/products/8inch_fry_periwinkle.png",
-        glb: "/src/assets/3d/8inch_fry_periwinkle.glb"
+        image: "./assets/products/8inch_fry_periwinkle.png",
+        glb: "./assets/3d/8inch_fry_periwinkle.glb"
     },
     color3: {
         color: "forest",
-        image: "/src/assets/products/8inch_fry_forest.png",
-        glb: "/src/assets/3d/8inch_fry_forest.glb"
+        image: "./assets/products/8inch_fry_forest.png",
+        glb: "./assets/3d/8inch_fry_forest.glb"
     },
     description: "Introducing our 8-inch fry pan, your go-to tool for versatile cooking adventures. Perfectly sized for cooking smaller portions, this pan is ideal for frying eggs, sautéing vegetables, searing meats, and crafting gourmet omelets with ease. With its durable hard-anodized body and healthy ceramic nonstick coating, you can indulge in guilt-free cooking while enjoying effortless cleanup. Elevate your culinary creations with precision and ease using our 8-inch fry pan, the perfect companion for any kitchen endeavor.",
-    gtlf: "/src/assets/3d/8inch_fry_biscuit.glb"
+    gtlf: "./assets/3d/8inch_fry_biscuit.glb"
 },
 {
     id: 2,
@@ -28,18 +28,18 @@ let productItem = [{
     size: "10",
     color1: {
         color: "forest",
-        image: "/src/assets/products/10inch_fry_forest.png"
+        image: "./assets/products/10inch_fry_forest.png"
     },
     color2: {
         color: "mauve",
-        image: "/src/assets/products/10inch_fry_mauve.png"
+        image: "./assets/products/10inch_fry_mauve.png"
     },
     color3: {
         color: "twilight",
-        image: "/src/assets/products/10inch_fry_twilight.png"
+        image: "./assets/products/10inch_fry_twilight.png"
     },
     description: "Introducing our 10-inch fry pan, a kitchen essential designed to handle larger culinary creations with ease. From searing steaks to sautéing vegetables and crafting hearty stir-fries, this versatile pan is perfectly sized for cooking family-sized meals. Featuring a durable hard-anodized body and a healthy ceramic nonstick coating, this pan ensures both durability and guilt-free cooking, while the balanced base guarantees optimal oil distribution for consistent results. Elevate your cooking experience with our 10-inch fry pan, the perfect companion for any chef's kitchen repertoire.",
-    gtlf: "/src/assets/3d/10inch_fry.glb"
+    gtlf: "./assets/3d/10inch_fry.glb"
 },
 {
     id: 3,
@@ -48,17 +48,17 @@ let productItem = [{
     size: "12",
     color1: {
         color: "mauve",
-        image: "/src/assets/products/12inch_fry_mauve.png"
+        image: "./assets/products/12inch_fry_mauve.png"
     },
     color2: {
         color: "grape",
-        image: "/src/assets/products/12inch_fry_grape.png"
+        image: "./assets/products/12inch_fry_grape.png"
     },
     color3: {
         color: "periwinkle",
-        image: "/src/assets/products/12inch_fry_periwinkle.png"
+        image: "./assets/products/12inch_fry_periwinkle.png"
     },
-    gtlf: "/src/assets/3d/12inch_fry.glb",
+    gtlf: "./assets/3d/12inch_fry.glb",
     description: "Introducing our 12-inch fry pan, the ultimate culinary workhorse for your kitchen adventures. With its spacious cooking surface, this pan is perfect for searing, frying, and sautéing larger quantities of ingredients with ease. Crafted with a durable hard-anodized body and featuring a healthy ceramic nonstick coating, it promises both resilience and guilt-free cooking, while the balanced base ensures optimal oil distribution for consistent results. Elevate your cooking prowess with our 12-inch fry pan, your go-to tool for creating delicious meals to share with family and friends."
 },
 {
@@ -68,17 +68,17 @@ let productItem = [{
     size: "6",
     color1: {
         color: "twilight",
-        image: "/src/assets/products/6inch_sauce_twilight.png"
+        image: "./assets/products/6inch_sauce_twilight.png"
     },
     color2: {
         color: "forest",
-        image: "/src/assets/products/6inch_sauce_forest.png"
+        image: "./assets/products/6inch_sauce_forest.png"
     },
     color3: {
         color: "grape",
-        image: "/src/assets/products/6inch_sauce_grape.png"
+        image: "./assets/products/6inch_sauce_grape.png"
     },
-    gtlf: "/src/assets/3d/6inch_sauce.glb",
+    gtlf: "./assets/3d/6inch_sauce.glb",
     description: "Introducing our 6-inch saucepan with lid, a versatile kitchen essential designed for precise cooking tasks. Perfectly sized for heating sauces, simmering soups, and cooking smaller portions of grains or pasta, this saucepan is your go-to tool for culinary precision. Crafted with a durable hard-anodized body and featuring a healthy ceramic nonstick coating, it ensures both durability and guilt-free cooking, while the matching lid locks in flavors and moisture for delicious results every time. Elevate your cooking experience with our 6-inch saucepan, the perfect companion for creating culinary masterpieces with ease."
 },
 {
@@ -88,17 +88,17 @@ let productItem = [{
     size: "7",
     color1: {
         color: "grape",
-        image: "/src/assets/products/7inch_sauce_grape.png"
+        image: "./assets/products/7inch_sauce_grape.png"
     },
     color2: {
         color: "mauve",
-        image: "/src/assets/products/7inch_sauce_mauve.png"
+        image: "./assets/products/7inch_sauce_mauve.png"
     },
     color3: {
         color: "biscuit",
-        image: "/src/assets/products/7inch_sauce_biscuit.png"
+        image: "./assets/products/7inch_sauce_biscuit.png"
     },
-    gtlf: "/src/assets/3d/7inch_sauc.glb",
+    gtlf: "./assets/3d/7inch_sauc.glb",
     description: "Introducing our 7-inch saucepan with lid, the versatile medium-sized addition to your kitchen lineup. Perfectly balancing capacity and compactness, this saucepan is ideal for heating sauces, simmering soups, or cooking moderate portions of grains and pasta. Crafted with a durable hard-anodized body and featuring a healthy ceramic nonstick coating, it ensures both resilience and guilt-free cooking, while the matching lid seals in flavors and moisture for delicious results every time. Elevate your culinary endeavors with our 7-inch saucepan, the perfect tool for achieving precise and flavorful dishes effortlessly."
 },
 {
@@ -108,17 +108,17 @@ let productItem = [{
     size: "8",
     color1: {
         color: "periwinkle",
-        image: "/src/assets/products/8inch_sauce_periwinkle.png"
+        image: "./assets/products/8inch_sauce_periwinkle.png"
     },
     color2: {
         color: "biscuit",
-        image: "/src/assets/products/8inch_sauce_biscuit.png"
+        image: "./assets/products/8inch_sauce_biscuit.png"
     },
     color3: {
         color: "twilight",
-        image: "/src/assets/products/8inch_sauce_twilight.png"
+        image: "./assets/products/8inch_sauce_twilight.png"
     },
-    gtlf: "/src/assets/3d/8inch_sauce.glb",
+    gtlf: "./assets/3d/8inch_sauce.glb",
     description: "Introducing our 8-inch saucepan with lid, the spacious solution for your culinary creations. With ample capacity, this saucepan is perfect for simmering sauces, cooking larger batches of soups, or boiling grains and pasta with ease. Crafted with a durable hard-anodized body and featuring a healthy ceramic nonstick coating, it ensures both durability and guilt-free cooking, while the matching lid seals in flavors and moisture for delicious results every time. Elevate your cooking experience with our 8-inch saucepan, the perfect companion for achieving flavorful dishes with ease and precision."
 },
 {
@@ -128,17 +128,17 @@ let productItem = [{
     size: "10.5",
     color1: {
         color: "biscuit",
-        image: "/src/assets/products/10inch_saute_biscuit.png"
+        image: "./assets/products/10inch_saute_biscuit.png"
     },
     color2: {
         color: "periwinkle",
-        image: "/src/assets/products/10inch_saute_periwinkle.png"
+        image: "./assets/products/10inch_saute_periwinkle.png"
     },
     color3: {
         color: "grape",
-        image: "/src/assets/products/10inch_saute_grape.png"
+        image: "./assets/products/10inch_saute_grape.png"
     },
-    gtlf: "/src/assets/3d/10inch_saute.glb",
+    gtlf: "./assets/3d/10inch_saute.glb",
     description: "Introducing our 10.5-inch sauté pan with lid, a versatile essential for your culinary adventures. Perfectly balancing size and functionality, this pan is ideal for sautéing vegetables, searing meats, or simmering sauces with ease. Crafted with a durable hard-anodized body and featuring a healthy ceramic nonstick coating, it ensures both resilience and guilt-free cooking, while the matching lid seals in flavors and moisture for delicious results every time. Elevate your cooking experience with our 10.5-inch sauté pan, the perfect companion for achieving flavorful dishes with precision and ease."
 },
 {
@@ -148,17 +148,17 @@ let productItem = [{
     size: "12.5",
     color1: {
         color: "mauve",
-        image: "/src/assets/products/12inch_saute_mauve.png"
+        image: "./assets/products/12inch_saute_mauve.png"
     },
     color2: {
         color: "forest",
-        image: "/src/assets/products/12inch_saute_forest.png"
+        image: "./assets/products/12inch_saute_forest.png"
     },
     color3: {
         color: "grape",
-        image: "/src/assets/products/12inch_saute_grape.png"
+        image: "./assets/products/12inch_saute_grape.png"
     },
-    gtlf: "/src/assets/3d/12inch_saute.glb",
+    gtlf: "./assets/3d/12inch_saute.glb",
     description: "Introducing our 12.5-inch sauté pan with lid, the ultimate kitchen companion for your culinary aspirations. With its expansive size and versatile design, this pan is perfect for searing, sautéing, and simmering large batches of ingredients with ease. Crafted with a durable hard-anodized body and featuring a healthy ceramic nonstick coating, it ensures both durability and guilt-free cooking, while the matching lid locks in flavors and moisture for delicious results every time. Elevate your cooking prowess with our 12.5-inch sauté pan, the ideal tool for creating impressive dishes to share with family and friends."
 }];
 
